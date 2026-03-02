@@ -1,1 +1,37 @@
+Naravno! Evo detaljnog opisa projekta u obliku tekstualnog opisa:
+
+---
+
+**Opis projekta: Web aplikacija za Vježbe i Prehranu**
+
+Ova web aplikacija osmišljena je s ciljem pomoći korisnicima u postizanju njihovih fitness ciljeva kroz pravilno izvođenje vježbi i prilagođenu prehranu. Aplikacija kombinira dva ključna aspekta zdravlja i fizičke kondicije: vježbanje i prehranu, s naglaskom na edukaciju, motivaciju i praćenje napretka.
+
+**Što aplikacija rješava:**
+
+U današnjem užurbanom načinu života, mnogi korisnici nemaju dovoljno informacija o tome kako pravilno izvoditi vježbe, a još manje o tome kako se prehrambene navike odražavaju na njihov napredak. Ova aplikacija nudi jednostavan način za praćenje vježbi, poput zgibova, sklekova, bicikliranja i trčanja, te daje korisnicima personalizirane prehrambene preporuke temeljene na njihovim ciljevima.
+
+Korisnici mogu započeti s osnovnim vježbama, pratiti svoj napredak i dobiti preporuke za prehranu koje će im pomoći u postizanju ciljeva, bilo da se radi o mršavljenju, povećanju mišićne mase, poboljšanju izdržljivosti ili kondicije. Aplikacija također pruža mogućnost postavljanja tjednih i mjesečnih planova vježbanja, što korisnicima omogućava bolje organiziranje svojih treninga.
+
+**Zašto je odabrana tematika:**
+
+Zdravlje, fizička aktivnost i prehrana postali su glavni prioritet mnogih ljudi koji žele živjeti zdravije, ali često nemaju dovoljno informacija o tome kako pravilno kombinirati vježbanje i prehranu. Kroz ovu aplikaciju, želimo korisnicima pružiti jednostavan i pristupačan način za poboljšanje njihove fizičke spreme uz istovremeno savjetovanje o prehrambenim navikama koje im pomažu u postizanju njihovih ciljeva.
+
+Ciljana publika ove aplikacije su ljudi svih dobnih skupina koji žele poboljšati svoju fizičku kondiciju, od početnika koji žele naučiti osnovne vježbe, do iskusnih sportaša koji žele optimizirati svoju prehranu i treninge. Također, aplikacija je korisna onima koji žele naučiti više o tome kako pravilno vježbati i kako prehrana može utjecati na rezultate koje postižu.
+
+**Glavne funkcionalnosti aplikacije uključuju:**
+
+1. **Prijava i registracija korisnika** – Korisnici se mogu prijaviti putem e-maila ili društvenih mreža, a njihov napredak u vježbama bit će spremljen i dostupan za praćenje.
+2. **Baza vježbi** – Aplikacija sadrži detaljne opise vježbi poput zgibova, sklekova, bicikliranja i trčanja, uz video upute za pravilno izvođenje svake vježbe.
+3. **Praćenje napretka** – Korisnici mogu pratiti broj ponavljanja, vrijeme provedeno na vježbanju i napredak u snazi ili izdržljivosti.
+4. **Personalizirani prehrambeni savjeti** – Na temelju postavljenih ciljeva (mršavljenje, povećanje mišićne mase itd.), aplikacija nudi prehrambene preporuke, uključujući planove obroka.
+5. **Kreiranje plana vježbanja** – Korisnici mogu postaviti tjedne ili mjesečne ciljeve vježbanja i pratiti svoj napredak.
+
+**Tehnologije:**
+
+Aplikacija je razvijena koristeći **SolidJS** za frontend razvoj, koji omogućava brzo i reaktivno korisničko sučelje. Za stilizaciju su korišteni **TailwindCSS** i **DaisyUI**, koji omogućuju brzu i responzivnu izradu atraktivnih sučelja. Za pohranu podataka i autentifikaciju korišten je **Firebase**, koji omogućava sigurnu prijavu korisnika, pohranu podataka o vježbama i prehrambenim preporukama, te hosting aplikacije.
+
+**Zaključak:**
+
+Cilj ove aplikacije je pružiti korisnicima jednostavan, ali učinkovit alat za poboljšanje fizičke spremnosti i zdravlja, kroz pravilno vježbanje i odgovarajuću prehranu. Kroz personalizirane savjete i praćenje napretka, aplikacija omogućuje korisnicima da postignu svoje fitness ciljeve i postanu bolje verzije sebe.
+
 
