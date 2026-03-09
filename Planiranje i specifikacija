@@ -1,37 +1,89 @@
-Naravno! Evo detaljnog opisa projekta u obliku tekstualnog opisa:
+
+# Fitness & Nutrition Tracker – Web aplikacija
+
+## 1. Opis projekta
+
+Ovaj projekt predstavlja razvoj web aplikacije za praćenje fizičke aktivnosti i prehrane. Cilj aplikacije je pomoći korisnicima u organizaciji treninga, praćenju napretka i planiranju prehrane na jednostavan i pregledan način.
+
+U današnje vrijeme sve više ljudi pokušava voditi zdraviji način života kroz redovitu tjelesnu aktivnost i pravilnu prehranu. Međutim, mnogi korisnici nemaju jednostavan način za praćenje svojih treninga, bilježenje vježbi ili planiranje obroka. Upravo zbog toga razvija se ova aplikacija koja omogućuje korisnicima da na jednom mjestu upravljaju svojim fitness ciljevima.
+
+Aplikacija će omogućiti korisnicima registraciju i prijavu putem sustava autentifikacije. Nakon prijave korisnik će imati pristup svom osobnom profilu gdje može unositi i pratiti svoje treninge, dodavati vježbe koje je odradio, planirati obroke te pratiti napredak kroz vrijeme.
+
+Glavna svrha aplikacije je pružiti jednostavan alat koji pomaže korisnicima da ostanu motivirani i organizirani tijekom svog fitness puta. Umjesto korištenja više različitih aplikacija za trening i prehranu, korisnik sve informacije može imati na jednom mjestu.
+
+Ciljani korisnici ove aplikacije su rekreativci i osobe koje žele pratiti svoju fizičku aktivnost i prehranu. Aplikacija može biti korisna i početnicima u fitnessu koji žele imati jednostavan pregled svojih treninga i planiranih obroka.
+
+Aplikacija će biti izrađena koristeći moderne web tehnologije. Za izradu korisničkog sučelja koristit će se SolidJS koji omogućuje brzu i reaktivnu izradu web aplikacija. Dizajn će biti izrađen pomoću TailwindCSS i DaisyUI komponenti koje omogućuju moderan i responzivan izgled stranice. Za backend i pohranu podataka koristit će se Firebase platforma, uključujući Firebase Authentication za prijavu korisnika te Firestore bazu podataka za spremanje informacija o treningu i prehrani.
+
+Jedna od glavnih prednosti ove aplikacije bit će jednostavnost korištenja i responzivni dizajn koji omogućuje korištenje na mobilnim uređajima, tabletima i računalima. Na taj način korisnici mogu brzo zabilježiti trening ili obrok odmah nakon što ga odrade.
+
+Projekt će biti razvijan kroz više faza koje uključuju planiranje, implementaciju osnovnih funkcionalnosti, razvoj dodatnih mogućnosti i objavu aplikacije na Firebase hostingu.
 
 ---
 
-**Opis projekta: Web aplikacija za Vježbe i Prehranu**
+# 2. Funkcionalnosti aplikacije
 
-Ova web aplikacija osmišljena je s ciljem pomoći korisnicima u postizanju njihovih fitness ciljeva kroz pravilno izvođenje vježbi i prilagođenu prehranu. Aplikacija kombinira dva ključna aspekta zdravlja i fizičke kondicije: vježbanje i prehranu, s naglaskom na edukaciju, motivaciju i praćenje napretka.
+## Osnovne funkcionalnosti
 
-**Što aplikacija rješava:**
+* Registracija korisnika
+* Prijava korisnika
+* Odjava korisnika
+* Oporavak zaporke
+* Pregled korisničkog profila
+* Uređivanje korisničkog profila
+* Dodavanje treninga
+* Dodavanje vježbi u trening
+* Dodavanje obroka
+* Pregled unesenih treninga
+* Pregled unesenih obroka
+* Spremanje podataka u Firestore bazu
 
-U današnjem užurbanom načinu života, mnogi korisnici nemaju dovoljno informacija o tome kako pravilno izvoditi vježbe, a još manje o tome kako se prehrambene navike odražavaju na njihov napredak. Ova aplikacija nudi jednostavan način za praćenje vježbi, poput zgibova, sklekova, bicikliranja i trčanja, te daje korisnicima personalizirane prehrambene preporuke temeljene na njihovim ciljevima.
+## Napredne funkcionalnosti
 
-Korisnici mogu započeti s osnovnim vježbama, pratiti svoj napredak i dobiti preporuke za prehranu koje će im pomoći u postizanju ciljeva, bilo da se radi o mršavljenju, povećanju mišićne mase, poboljšanju izdržljivosti ili kondicije. Aplikacija također pruža mogućnost postavljanja tjednih i mjesečnih planova vježbanja, što korisnicima omogućava bolje organiziranje svojih treninga.
+* Praćenje napretka (statistika treninga)
+* Kalendar treninga
+* Preporuke vježbi
+* Preporuke prehrane
+* Admin korisnik koji može upravljati bazom vježbi
+* Grafovi napretka
+* Tamni / svijetli način rada (dark mode)
 
-**Zašto je odabrana tematika:**
+---
 
-Zdravlje, fizička aktivnost i prehrana postali su glavni prioritet mnogih ljudi koji žele živjeti zdravije, ali često nemaju dovoljno informacija o tome kako pravilno kombinirati vježbanje i prehranu. Kroz ovu aplikaciju, želimo korisnicima pružiti jednostavan i pristupačan način za poboljšanje njihove fizičke spreme uz istovremeno savjetovanje o prehrambenim navikama koje im pomažu u postizanju njihovih ciljeva.
+# 3. Scenarij korištenja (korisnički tijek)
 
-Ciljana publika ove aplikacije su ljudi svih dobnih skupina koji žele poboljšati svoju fizičku kondiciju, od početnika koji žele naučiti osnovne vježbe, do iskusnih sportaša koji žele optimizirati svoju prehranu i treninge. Također, aplikacija je korisna onima koji žele naučiti više o tome kako pravilno vježbati i kako prehrana može utjecati na rezultate koje postižu.
+## Registracija
 
-**Glavne funkcionalnosti aplikacije uključuju:**
+1. Novi korisnik dolazi na početnu stranicu aplikacije.
+2. Klikne na opciju **Registracija**.
+3. Unosi email i zaporku.
+4. Sustav kreira korisnički račun pomoću Firebase Authentication sustava.
 
-1. **Prijava i registracija korisnika** – Korisnici se mogu prijaviti putem e-maila ili društvenih mreža, a njihov napredak u vježbama bit će spremljen i dostupan za praćenje.
-2. **Baza vježbi** – Aplikacija sadrži detaljne opise vježbi poput zgibova, sklekova, bicikliranja i trčanja, uz video upute za pravilno izvođenje svake vježbe.
-3. **Praćenje napretka** – Korisnici mogu pratiti broj ponavljanja, vrijeme provedeno na vježbanju i napredak u snazi ili izdržljivosti.
-4. **Personalizirani prehrambeni savjeti** – Na temelju postavljenih ciljeva (mršavljenje, povećanje mišićne mase itd.), aplikacija nudi prehrambene preporuke, uključujući planove obroka.
-5. **Kreiranje plana vježbanja** – Korisnici mogu postaviti tjedne ili mjesečne ciljeve vježbanja i pratiti svoj napredak.
+## Prijava
 
-**Tehnologije:**
+1. Postojeći korisnik otvara aplikaciju.
+2. Unosi email i zaporku.
+3. Nakon uspješne prijave preusmjerava se na početnu stranicu aplikacije (dashboard).
 
-Aplikacija je razvijena koristeći **SolidJS** za frontend razvoj, koji omogućava brzo i reaktivno korisničko sučelje. Za stilizaciju su korišteni **TailwindCSS** i **DaisyUI**, koji omogućuju brzu i responzivnu izradu atraktivnih sučelja. Za pohranu podataka i autentifikaciju korišten je **Firebase**, koji omogućava sigurnu prijavu korisnika, pohranu podataka o vježbama i prehrambenim preporukama, te hosting aplikacije.
+## Dodavanje treninga
 
-**Zaključak:**
+1. Korisnik odlazi na stranicu **Treninzi**.
+2. Klikne na gumb **Dodaj trening**.
+3. Unosi naziv treninga i datum.
+4. Dodaje vježbe koje je radio tijekom treninga.
+5. Podaci se spremaju u Firestore bazu podataka.
 
-Cilj ove aplikacije je pružiti korisnicima jednostavan, ali učinkovit alat za poboljšanje fizičke spremnosti i zdravlja, kroz pravilno vježbanje i odgovarajuću prehranu. Kroz personalizirane savjete i praćenje napretka, aplikacija omogućuje korisnicima da postignu svoje fitness ciljeve i postanu bolje verzije sebe.
+## Dodavanje obroka
+
+1. Korisnik odlazi na stranicu **Prehrana**.
+2. Klikne na gumb **Dodaj obrok**.
+3. Unosi naziv obroka i osnovne podatke (npr. kalorije).
+4. Podaci se spremaju u bazu podataka.
+
+## Pregled podataka
+
+1. Korisnik može otvoriti listu svojih treninga.
+2. Može pregledati sve prethodno unesene obroke.
+3. Aplikacija prikazuje spremljene podatke i omogućuje njihovo uređivanje ili brisanje.
 
 
