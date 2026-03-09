@@ -3,21 +3,33 @@
 
 ## 1. Opis projekta
 
-Ovaj projekt predstavlja razvoj web aplikacije za praćenje fizičke aktivnosti i prehrane. Cilj aplikacije je pomoći korisnicima u organizaciji treninga, praćenju napretka i planiranju prehrane na jednostavan i pregledan način.
+Ovaj projekt predstavlja razvoj web aplikacije za praćenje fizičke aktivnosti i prehrane. Cilj aplikacije je pomoći korisnicima 
+u organizaciji treninga, praćenju napretka i planiranju prehrane na jednostavan i pregledan način.
 
-U današnje vrijeme sve više ljudi pokušava voditi zdraviji način života kroz redovitu tjelesnu aktivnost i pravilnu prehranu. Međutim, mnogi korisnici nemaju jednostavan način za praćenje svojih treninga, bilježenje vježbi ili planiranje obroka. Upravo zbog toga razvija se ova aplikacija koja omogućuje korisnicima da na jednom mjestu upravljaju svojim fitness ciljevima.
+U današnje vrijeme sve više ljudi pokušava voditi zdraviji način života kroz redovitu tjelesnu aktivnost i pravilnu prehranu. 
+Međutim, mnogi korisnici nemaju jednostavan način za praćenje svojih treninga, bilježenje vježbi ili planiranje obroka. 
+Upravo zbog toga razvija se ova aplikacija koja omogućuje korisnicima da na jednom mjestu upravljaju svojim fitness ciljevima.
 
-Aplikacija će omogućiti korisnicima registraciju i prijavu putem sustava autentifikacije. Nakon prijave korisnik će imati pristup svom osobnom profilu gdje može unositi i pratiti svoje treninge, dodavati vježbe koje je odradio, planirati obroke te pratiti napredak kroz vrijeme.
+Aplikacija će omogućiti korisnicima registraciju i prijavu putem sustava autentifikacije. 
+Nakon prijave korisnik će imati pristup svom osobnom profilu gdje može unositi i pratiti svoje treninge, 
+dodavati vježbe koje je odradio, planirati obroke te pratiti napredak kroz vrijeme.
 
-Glavna svrha aplikacije je pružiti jednostavan alat koji pomaže korisnicima da ostanu motivirani i organizirani tijekom svog fitness puta. Umjesto korištenja više različitih aplikacija za trening i prehranu, korisnik sve informacije može imati na jednom mjestu.
+Glavna svrha aplikacije je pružiti jednostavan alat koji pomaže korisnicima da ostanu motivirani i organizirani tijekom svog 
+fitness puta. Umjesto korištenja više različitih aplikacija za trening i prehranu, korisnik sve informacije može imati na jednom mjestu.
 
-Ciljani korisnici ove aplikacije su rekreativci i osobe koje žele pratiti svoju fizičku aktivnost i prehranu. Aplikacija može biti korisna i početnicima u fitnessu koji žele imati jednostavan pregled svojih treninga i planiranih obroka.
+Ciljani korisnici ove aplikacije su rekreativci i osobe koje žele pratiti svoju fizičku aktivnost i prehranu. 
+Aplikacija može biti korisna i početnicima u fitnessu koji žele imati jednostavan pregled svojih treninga i planiranih obroka.
 
-Aplikacija će biti izrađena koristeći moderne web tehnologije. Za izradu korisničkog sučelja koristit će se SolidJS koji omogućuje brzu i reaktivnu izradu web aplikacija. Dizajn će biti izrađen pomoću TailwindCSS i DaisyUI komponenti koje omogućuju moderan i responzivan izgled stranice. Za backend i pohranu podataka koristit će se Firebase platforma, uključujući Firebase Authentication za prijavu korisnika te Firestore bazu podataka za spremanje informacija o treningu i prehrani.
+Aplikacija će biti izrađena koristeći moderne web tehnologije. Za izradu korisničkog sučelja koristit će se SolidJS koji 
+omogućuje brzu i reaktivnu izradu web aplikacija. Dizajn će biti izrađen pomoću TailwindCSS i DaisyUI komponenti koje omogućuju 
+moderan i responzivan izgled stranice. Za backend i pohranu podataka koristit će se Firebase platforma, uključujući 
+Firebase Authentication za prijavu korisnika te Firestore bazu podataka za spremanje informacija o treningu i prehrani.
 
-Jedna od glavnih prednosti ove aplikacije bit će jednostavnost korištenja i responzivni dizajn koji omogućuje korištenje na mobilnim uređajima, tabletima i računalima. Na taj način korisnici mogu brzo zabilježiti trening ili obrok odmah nakon što ga odrade.
+Jedna od glavnih prednosti ove aplikacije bit će jednostavnost korištenja i responzivni dizajn koji omogućuje korištenje na mobilnim 
+uređajima, tabletima i računalima. Na taj način korisnici mogu brzo zabilježiti trening ili obrok odmah nakon što ga odrade.
 
-Projekt će biti razvijan kroz više faza koje uključuju planiranje, implementaciju osnovnih funkcionalnosti, razvoj dodatnih mogućnosti i objavu aplikacije na Firebase hostingu.
+Projekt će biti razvijan kroz više faza koje uključuju planiranje, implementaciju osnovnih funkcionalnosti, razvoj dodatnih mogućnosti 
+i objavu aplikacije na Firebase hostingu.
 
 ---
 
